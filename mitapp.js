@@ -2,7 +2,7 @@
 // Byte dizisini float değerlerine dönüştürür.
 
 (function(global) {
-  var ByteToFloat = {};
+  var ByteToFloat = {}; // Extension adı
 
   // Byte dizisini float'a dönüştürme fonksiyonu
   ByteToFloat.convertBytesToFloat = function(bytes) {
@@ -22,5 +22,5 @@
   };
 
   // MIT App Inventor'a fonksiyonu ekle
-  global.ByteToFloat = ByteToFloat;
+  global.ByteToFloat = ByteToFloat; // Extension'ı global olarak tanımla
 })(this);
